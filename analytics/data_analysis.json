@@ -1,0 +1,398 @@
+{
+    "summary": {
+        "score": {
+            "count": 14.0,
+            "mean": 60.285714285714285,
+            "std": 34.67525957182767,
+            "min": 12.0,
+            "25%": 36.0,
+            "50%": 46.0,
+            "75%": 88.0,
+            "max": 116.0
+        },
+        "trophy_level": {
+            "count": 14.0,
+            "mean": 2.2142857142857144,
+            "std": 0.6992932067530679,
+            "min": 1.0,
+            "25%": 2.0,
+            "50%": 2.0,
+            "75%": 3.0,
+            "max": 3.0
+        },
+        "accuracy": {
+            "count": 14.0,
+            "mean": 72.21428571428571,
+            "std": 27.904172755035347,
+            "min": 30.0,
+            "25%": 44.75,
+            "50%": 87.0,
+            "75%": 95.25,
+            "max": 100.0
+        },
+        "speed": {
+            "count": 14.0,
+            "mean": 95.07142857142857,
+            "std": 7.216053531635458,
+            "min": 78.0,
+            "25%": 91.25,
+            "50%": 100.0,
+            "75%": 100.0,
+            "max": 100.0
+        },
+        "final_score": {
+            "count": 14.0,
+            "mean": 54.42857142857143,
+            "std": 38.14287772152386,
+            "min": 5.0,
+            "25%": 24.75,
+            "50%": 37.5,
+            "75%": 88.0,
+            "max": 115.0
+        },
+        "negative_score": {
+            "count": 14.0,
+            "mean": 5.857142857142857,
+            "std": 6.948792289723033,
+            "min": 0.0,
+            "25%": 1.0,
+            "50%": 3.0,
+            "75%": 8.5,
+            "max": 20.0
+        },
+        "correct_answers": {
+            "count": 14.0,
+            "mean": 15.071428571428571,
+            "std": 8.668814892956917,
+            "min": 3.0,
+            "25%": 9.0,
+            "50%": 11.5,
+            "75%": 22.0,
+            "max": 29.0
+        },
+        "incorrect_answers": {
+            "count": 14.0,
+            "mean": 5.857142857142857,
+            "std": 6.948792289723033,
+            "min": 0.0,
+            "25%": 1.0,
+            "50%": 3.0,
+            "75%": 8.5,
+            "max": 20.0
+        },
+        "better_than": {
+            "count": 14.0,
+            "mean": 160.0,
+            "std": 126.35359420780546,
+            "min": 18.0,
+            "25%": 55.25,
+            "50%": 133.5,
+            "75%": 246.75,
+            "max": 395.0
+        },
+        "total_questions": {
+            "count": 14.0,
+            "mean": 55.5,
+            "std": 35.015930440520705,
+            "min": 20.0,
+            "25%": 23.0,
+            "50%": 48.0,
+            "75%": 97.25,
+            "max": 100.0
+        },
+        "mistakes_corrected": {
+            "count": 14.0,
+            "mean": 2.857142857142857,
+            "std": 4.45243481975602,
+            "min": 0.0,
+            "25%": 0.0,
+            "50%": 0.0,
+            "75%": 3.75,
+            "max": 12.0
+        },
+        "initial_mistake_count": {
+            "count": 14.0,
+            "mean": 8.714285714285714,
+            "std": 6.46206172658864,
+            "min": 0.0,
+            "25%": 3.0,
+            "50%": 8.0,
+            "75%": 13.5,
+            "max": 20.0
+        },
+        "rank": {
+            "count": 14.0,
+            "mean": 3131.785714285714,
+            "std": 2898.6657455449404,
+            "min": 171.0,
+            "25%": 1598.0,
+            "50%": 2201.5,
+            "75%": 4550.25,
+            "max": 9140.0
+        }
+    },
+    "correlation_matrix": {
+        "score": {
+            "score": 1.0,
+            "trophy_level": -0.3580194893973842,
+            "accuracy": 0.6642348455658389,
+            "speed": 0.3528344385003549,
+            "final_score": 0.986291792783322,
+            "negative_score": -0.42377834237530426,
+            "correct_answers": 1.0,
+            "incorrect_answers": -0.42377834237530426,
+            "better_than": 0.5231271885923174,
+            "total_questions": 0.05435738351625159,
+            "mistakes_corrected": 0.8951253264808295,
+            "initial_mistake_count": 0.16105378401716555,
+            "rank": 0.24582208189717233
+        },
+        "trophy_level": {
+            "score": -0.3580194893973842,
+            "trophy_level": 1.0,
+            "accuracy": -0.5820236435152251,
+            "speed": -0.7502202427297813,
+            "final_score": -0.4218769517036811,
+            "negative_score": 0.5291829288340694,
+            "correct_answers": -0.3580194893973842,
+            "incorrect_answers": 0.5291829288340694,
+            "better_than": -0.44660862218174985,
+            "total_questions": 0.38482896806668354,
+            "mistakes_corrected": -0.2858819572570804,
+            "initial_mistake_count": 0.3720656930606351,
+            "rank": -0.2781030976353206
+        },
+        "accuracy": {
+            "score": 0.6642348455658389,
+            "trophy_level": -0.5820236435152251,
+            "accuracy": 1.0,
+            "speed": 0.34029925078476747,
+            "final_score": 0.763612277639629,
+            "negative_score": -0.8769659232766125,
+            "correct_answers": 0.6642348455658389,
+            "incorrect_answers": -0.8769659232766125,
+            "better_than": 0.7146674728491061,
+            "total_questions": -0.3867447155256199,
+            "mistakes_corrected": 0.5469673037793575,
+            "initial_mistake_count": -0.5661533318918696,
+            "rank": 0.4384785478585938
+        },
+        "speed": {
+            "score": 0.3528344385003549,
+            "trophy_level": -0.7502202427297813,
+            "accuracy": 0.34029925078476747,
+            "speed": 1.0,
+            "final_score": 0.3682286827354364,
+            "negative_score": -0.26057418365110674,
+            "correct_answers": 0.35283443850035484,
+            "incorrect_answers": -0.26057418365110674,
+            "better_than": 0.07128957245241371,
+            "total_questions": 0.08204459962669314,
+            "mistakes_corrected": 0.42411435871442715,
+            "initial_mistake_count": 0.012018712189542466,
+            "rank": 0.0018174984867924617
+        },
+        "final_score": {
+            "score": 0.986291792783322,
+            "trophy_level": -0.4218769517036811,
+            "accuracy": 0.763612277639629,
+            "speed": 0.3682286827354364,
+            "final_score": 1.0,
+            "negative_score": -0.5674300840781156,
+            "correct_answers": 0.986291792783322,
+            "incorrect_answers": -0.5674300840781156,
+            "better_than": 0.5812137849172141,
+            "total_questions": -0.025398970322689774,
+            "mistakes_corrected": 0.8913313648965824,
+            "initial_mistake_count": 0.0039679304983729746,
+            "rank": 0.3017920921631416
+        },
+        "negative_score": {
+            "score": -0.42377834237530426,
+            "trophy_level": 0.5291829288340694,
+            "accuracy": -0.8769659232766125,
+            "speed": -0.26057418365110674,
+            "final_score": -0.5674300840781156,
+            "negative_score": 1.0,
+            "correct_answers": -0.42377834237530415,
+            "incorrect_answers": 1.0,
+            "better_than": -0.5798986509644156,
+            "total_questions": 0.41066793816283764,
+            "mistakes_corrected": -0.4258639619932431,
+            "initial_mistake_count": 0.781896083733696,
+            "rank": -0.42989835440154006
+        },
+        "correct_answers": {
+            "score": 1.0,
+            "trophy_level": -0.3580194893973842,
+            "accuracy": 0.6642348455658389,
+            "speed": 0.35283443850035484,
+            "final_score": 0.986291792783322,
+            "negative_score": -0.42377834237530415,
+            "correct_answers": 1.0,
+            "incorrect_answers": -0.42377834237530426,
+            "better_than": 0.5231271885923174,
+            "total_questions": 0.05435738351625159,
+            "mistakes_corrected": 0.8951253264808295,
+            "initial_mistake_count": 0.16105378401716555,
+            "rank": 0.24582208189717233
+        },
+        "incorrect_answers": {
+            "score": -0.42377834237530426,
+            "trophy_level": 0.5291829288340694,
+            "accuracy": -0.8769659232766125,
+            "speed": -0.26057418365110674,
+            "final_score": -0.5674300840781156,
+            "negative_score": 1.0,
+            "correct_answers": -0.42377834237530426,
+            "incorrect_answers": 1.0,
+            "better_than": -0.5798986509644156,
+            "total_questions": 0.41066793816283764,
+            "mistakes_corrected": -0.4258639619932431,
+            "initial_mistake_count": 0.781896083733696,
+            "rank": -0.42989835440154006
+        },
+        "better_than": {
+            "score": 0.5231271885923174,
+            "trophy_level": -0.44660862218174985,
+            "accuracy": 0.7146674728491061,
+            "speed": 0.07128957245241371,
+            "final_score": 0.5812137849172141,
+            "negative_score": -0.5798986509644156,
+            "correct_answers": 0.5231271885923174,
+            "incorrect_answers": -0.5798986509644156,
+            "better_than": 1.0,
+            "total_questions": -0.7221858228705698,
+            "mistakes_corrected": 0.26047524611247314,
+            "initial_mistake_count": -0.44410690281066606,
+            "rank": 0.8573321749067171
+        },
+        "total_questions": {
+            "score": 0.05435738351625159,
+            "trophy_level": 0.38482896806668354,
+            "accuracy": -0.3867447155256199,
+            "speed": 0.08204459962669314,
+            "final_score": -0.025398970322689774,
+            "negative_score": 0.41066793816283764,
+            "correct_answers": 0.05435738351625159,
+            "incorrect_answers": 0.41066793816283764,
+            "better_than": -0.7221858228705698,
+            "total_questions": 1.0,
+            "mistakes_corrected": 0.21906670522764318,
+            "initial_mistake_count": 0.5925394387355277,
+            "rank": -0.5746581271398734
+        },
+        "mistakes_corrected": {
+            "score": 0.8951253264808295,
+            "trophy_level": -0.2858819572570804,
+            "accuracy": 0.5469673037793575,
+            "speed": 0.42411435871442715,
+            "final_score": 0.8913313648965824,
+            "negative_score": -0.4258639619932431,
+            "correct_answers": 0.8951253264808295,
+            "incorrect_answers": -0.4258639619932431,
+            "better_than": 0.26047524611247314,
+            "total_questions": 0.21906670522764318,
+            "mistakes_corrected": 1.0,
+            "initial_mistake_count": 0.23107092865464413,
+            "rank": 0.03802353088844321
+        },
+        "initial_mistake_count": {
+            "score": 0.16105378401716555,
+            "trophy_level": 0.3720656930606351,
+            "accuracy": -0.5661533318918696,
+            "speed": 0.012018712189542466,
+            "final_score": 0.0039679304983729746,
+            "negative_score": 0.781896083733696,
+            "correct_answers": 0.16105378401716555,
+            "incorrect_answers": 0.781896083733696,
+            "better_than": -0.44410690281066606,
+            "total_questions": 0.5925394387355277,
+            "mistakes_corrected": 0.23107092865464413,
+            "initial_mistake_count": 1.0,
+            "rank": -0.4360801856685289
+        },
+        "rank": {
+            "score": 0.24582208189717233,
+            "trophy_level": -0.2781030976353206,
+            "accuracy": 0.4384785478585938,
+            "speed": 0.0018174984867924617,
+            "final_score": 0.3017920921631416,
+            "negative_score": -0.42989835440154006,
+            "correct_answers": 0.24582208189717233,
+            "incorrect_answers": -0.42989835440154006,
+            "better_than": 0.8573321749067171,
+            "total_questions": -0.5746581271398734,
+            "mistakes_corrected": 0.03802353088844321,
+            "initial_mistake_count": -0.4360801856685289,
+            "rank": 1.0
+        }
+    },
+    "distribution_analysis": {
+        "score": {
+            "mean": 60.285714285714285,
+            "median": 46.0,
+            "std": 33.413916201462634
+        },
+        "trophy_level": {
+            "mean": 2.2142857142857144,
+            "median": 2.0,
+            "std": 0.6738557951469003
+        },
+        "accuracy": {
+            "mean": 72.21428571428571,
+            "median": 87.0,
+            "std": 26.88913368266225
+        },
+        "speed": {
+            "mean": 95.07142857142857,
+            "median": 100.0,
+            "std": 6.953563174109122
+        },
+        "final_score": {
+            "mean": 54.42857142857143,
+            "median": 37.5,
+            "std": 36.75539666053775
+        },
+        "negative_score": {
+            "mean": 5.857142857142857,
+            "median": 3.0,
+            "std": 6.696023797290265
+        },
+        "correct_answers": {
+            "mean": 15.071428571428571,
+            "median": 11.5,
+            "std": 8.353479050365658
+        },
+        "incorrect_answers": {
+            "mean": 5.857142857142857,
+            "median": 3.0,
+            "std": 6.696023797290265
+        },
+        "better_than": {
+            "mean": 160.0,
+            "median": 133.5,
+            "std": 121.75736997347283
+        },
+        "total_questions": {
+            "mean": 55.5,
+            "median": 48.0,
+            "std": 33.74219486467521
+        },
+        "mistakes_corrected": {
+            "mean": 2.857142857142857,
+            "median": 0.0,
+            "std": 4.290473547908916
+        },
+        "initial_mistake_count": {
+            "mean": 8.714285714285714,
+            "median": 8.0,
+            "std": 6.226998490772391
+        },
+        "rank": {
+            "mean": 3131.785714285714,
+            "median": 2201.5,
+            "std": 2793.2242040483666
+        }
+    }
+}
